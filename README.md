@@ -1,7 +1,7 @@
 # Main
-Projeto: R3V1V3R VPS
-Faz parte do R3V1V3R 1NT3RN3T L1VR3
-BY @judiba
+Projeto: NERDOLOGIA VPS
+EDITED Colt SEALS TecnologY
+BY @ColtSeals
 
 Novos projetos ficam aqui neste local...
 
