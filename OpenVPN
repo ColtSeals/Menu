@@ -100,7 +100,13 @@ if [[ "$IP" = "" ]]; then
 		IP=$(wget -qO- ipv4.icanhazip.com)
 fi
 echo -e '\033[05;31m-------------------------------------------------------\033[00;37m'
+echo -e "\033[1;31m•••••> \033[01;37mScript Edited ••ColtSeals TecnologY•• \033[0m"
+echo -e "\033[1;32m•••••> A Internet aproxima quem está longe e afasta quem está perto!"
+echo -e "\033[1;32m•••••> TELEGRAM GRUPO: @NerdologiaVps"
+echo -e "\033[1;32m•••••> TELEGRAM CANAL: @VpsNerdologia"
+echo -e '\033[05;31m-------------------------------------------------------\033[00;37m'
 echo -e '\033[01;32m              O que deseja fazer ?\033[00;37m'
+echo -e '\033[05;31m-------------------------------------------------------\033[00;37m'
 echo " "
 echo -e 'Digite: \033[01;32m1\033[00;37m para Instalar o OpenVPN.'
 echo " "
@@ -398,7 +404,7 @@ elif [[ "$resposta" = '2' ]]; then
 	echo "esta senha não será usada."
     echo "-------------------------------------------"
 	echo " "
-	read -p "Digite a senha para o cliente $CLIENT: " -e -i r3v1v3r@ senha
+	read -p "Digite a senha para o cliente $CLIENT: " -e -i NERDOLOGIAVPS senha
 	usermod -p $(openssl passwd -1 $senha) $CLIENT
     clear
 	echo "----------------------------------"
