@@ -1,6 +1,6 @@
 #!/bin/bash
-# by: @judiba
-# Creditos: R3V1V3R VPS
+# by: @ColtSeals
+# Creditos: NERDOLOGIA VPS
 
 ip=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -1)
 if [[ "$ip" = "" ]]; then
