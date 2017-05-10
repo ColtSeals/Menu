@@ -28,6 +28,12 @@ Digite o nome !\033[0m"
 read -p ": " nome
 clear
 
+echo -e "\033[1;31m•••••> \033[01;37mScript Edited ••ColtSeals TecnologY•• \033[0m"
+echo -e "\033[1;32m•••••> A Internet aproxima quem está longe e afasta quem está perto!"
+echo -e "\033[1;32m•••••> TELEGRAM canal: @ColtChannel"
+echo -e "\033[1;32m•••••> TELEGRAM CANAL: @VpsNerdologia"
+echo -e "\033[1;32m•••••> TELEGRAM GRUPO: @NerdologiaVps"
+
 echo -e "\033[1;31m-----> \033[01;37mSeu sistema operacional:\033[1;31m $(cat /etc/so)"
 echo -e "\033[1;31m-----> \033[01;37mSeu ip:\033[1;31m $ip"
 echo -e "\033[1;31m-----> \033[1;37mSQUID NAS PORTAS:\033[1;31m 80, 8080, 8799 e 3128\033[0m"
@@ -124,8 +130,8 @@ service ssh restart 1> /dev/null 2> /dev/null
 
 echo "
 ############
-#R3V1V3R VPS
-#by: judiba
+#NERDOLOGIA VPS
+#by: ColtSeals
 ############
 
 #PORTAS DE ACESSO NO SQUID
@@ -241,8 +247,8 @@ sshd_config
 service ssh restart 1> /dev/null 2> /dev/null
 
 echo "############
-#R3V1V3R VPS
-#by: judiba
+#NERDOLOGIA VPS
+#by: ColtSeals
 ############
 
 #PORTAS DE ACESSO NO SQUID
@@ -378,8 +384,8 @@ service ssh restart 1> /dev/null 2> /dev/null
 
 echo "
 ############
-#R3V1V3R VPS
-#by: judiba
+#NERDOLOGIA VPS
+#by: ColtSeals
 ############
 
 #PORTAS DE ACESSO NO SQUID
@@ -494,8 +500,8 @@ service sshd restart 1> /dev/null 2> /dev/null
 
 echo "
 ############
-#R3V1V3R VPS
-#by: judiba
+#NERDOLOGIA VPS
+#by: ColtSeals
 ############
 
 #PORTAS DE ACESSO NO SQUID
@@ -611,8 +617,8 @@ sshd_config
 service sshd restart 1> /dev/null 2> /dev/null
 service ssh restart > /dev/null 2> /dev/null
 echo "############
-#R3V1V3R VPS
-#by: judiba
+#NERDOLOGIA VPS
+#by: ColtSeals
 ############
 
 #PORTAS DE ACESSO NO SQUID
