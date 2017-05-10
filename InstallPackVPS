@@ -82,7 +82,7 @@ wget https://https://raw.githubusercontent.com/ColtSeals/Menu/master/ConfAtual -
 chmod +x /bin/ConfAtual
 sed -i -e 's/\r$//' /bin/ConfAtual
 
-wget https://raw.githubusercontent.com/ColtSeals/Menu/master/monitorcpu -O /bin/CpuMonitor
+wget https://raw.githubusercontent.com/ColtSeals/Menu/master/m -O /bin/CpuMonitor
 chmod +x /bin/CpuMonitor
 sed -i -e 's/\r$//' /bin/CpuMonitor
 
