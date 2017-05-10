@@ -124,8 +124,8 @@ service ssh restart 1> /dev/null 2> /dev/null
 
 echo "
 ############
-#R3V1V3R VPS
-#by: judiba
+#NERDOLOGIA VPS
+#by: ColtSeals
 ############
 
 #PORTAS DE ACESSO NO SQUID
@@ -240,9 +240,10 @@ chattr -i /etc/ssh/sshd_config > /dev/null 2> /dev/null
 sshd_config
 service ssh restart 1> /dev/null 2> /dev/null
 
-echo "############
-#R3V1V3R VPS
-#by: judiba
+echo "
+############
+#NERDOLOGIA VPS
+#by: ColtSeals
 ############
 
 #PORTAS DE ACESSO NO SQUID
@@ -378,8 +379,8 @@ service ssh restart 1> /dev/null 2> /dev/null
 
 echo "
 ############
-#R3V1V3R VPS
-#by: judiba
+#NERDOLOGIA VPS
+#by: ColtSeals
 ############
 
 #PORTAS DE ACESSO NO SQUID
@@ -494,8 +495,8 @@ service sshd restart 1> /dev/null 2> /dev/null
 
 echo "
 ############
-#R3V1V3R VPS
-#by: judiba
+#NERDOLOGIA VPS
+#by: ColtSeals
 ############
 
 #PORTAS DE ACESSO NO SQUID
