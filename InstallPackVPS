@@ -1,7 +1,7 @@
 #!/bin/bash
-##R3V1V3R VPS 
-##PackVPS 1.0
-##By: @judiba
+##NERDOLOGIA VPS 
+##MenuVPS 1.0
+##By: @ColtSeals
 
 corPadrao="\033[0m"
 preto="\033[0;30m"
