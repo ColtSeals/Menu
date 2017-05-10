@@ -1,5 +1,5 @@
 #!/bin/bash
-tput setaf 8 ; tput setab 5; tput bold ; printf '%30s%s%-15s\n' "OpenVPN Manager" ; tput sgr0
+tput setaf 8 ; tput setab 5; tput bold ; printf '%30s%s%-15s\n' "OpenVPN NERDs" ; tput sgr0
 echo ""
 
 corPadrao="\033[0m"
@@ -99,6 +99,12 @@ IP=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,
 if [[ "$IP" = "" ]]; then
 		IP=$(wget -qO- ipv4.icanhazip.com)
 fi
+echo -e "\033[1;30m--------------------------------------------------------\033[0m"
+echo -e "\033[1;37m•••••> Script Edited ••ColtSeals TecnologY••            \033[0m"
+echo -e "\033[1;37m•••••> CANAL TELEGRAM OFICIAL: @VpsNerdologia           \033[0m"
+echo -e "\033[1;37m•••••> CANAL TELEGRAM OFICIAL: @ColtChannel             \033[0m"
+echo -e "\033[1;37m•••••> GRUPO TELEGRAM OFICIAL: @NerdologiaVps           \033[0m"
+echo -e "\033[1;30m--------------------------------------------------------\033[0m"
 echo -e '\033[05;31m-------------------------------------------------------\033[00;37m'
 echo -e '\033[01;32m              O que deseja fazer ?\033[00;37m'
 echo " "
@@ -398,7 +404,7 @@ elif [[ "$resposta" = '2' ]]; then
 	echo "esta senha não será usada."
     echo "-------------------------------------------"
 	echo " "
-	read -p "Digite a senha para o cliente $CLIENT: " -e -i r3v1v3r@ senha
+	read -p "Digite a senha para o cliente $CLIENT: " -e -i NerdologiaVPS senha
 	usermod -p $(openssl passwd -1 $senha) $CLIENT
     clear
 	echo "----------------------------------"
