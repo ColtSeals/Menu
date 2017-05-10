@@ -179,6 +179,9 @@ wget https://raw.githubusercontent.com/judiba/Main/master/PackVPS -O /bin/PackVP
 chmod +x /bin/PackVPS
 sed -i -e 's/\r$//' /bin/PackVPS
 
+cp /bin/PackVPS /bin/vps
+cp /bin/PackVPS /bin/MenuVPS
+
 clear
 
 tput setaf 8 ; tput setab 5 ; tput bold ; printf '%30s%s%-15s\n' "PackVPS 1.0" ; tput sgr0
