@@ -102,5 +102,5 @@ fi
 bash screenfetch-dev
 force_color_prompt=yes
 screenfetch
-figlet R3V1V3R VPS
+NERD's VPS
 bash MenuVPS.sh
