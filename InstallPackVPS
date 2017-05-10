@@ -180,6 +180,8 @@ cp /bin/OpenVPN /bin/open
 cp /bin/PackVPS /bin/MenuVPS
 cp /bin/PackVPS /bin/vps
 
+clear
+
 tput setaf 8 ; tput setab 5 ; tput bold ; printf '%30s%s%-15s\n' "MenuVPS 1.0" ; tput sgr0
 echo ""
 echo -e "\033[1;30m-------------------------------------------------------------------------\033[0m"
